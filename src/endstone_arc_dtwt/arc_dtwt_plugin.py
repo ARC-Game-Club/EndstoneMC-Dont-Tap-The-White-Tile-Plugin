@@ -145,6 +145,7 @@ class ARCDTWTPlugin(Plugin):
                 "别踩白块小游戏",
                 on_click=self.show_dtwt_panel,
                 priority=6,
+                icon="textures/arc_core/dtwt.png",
             )
         except Exception as e:
             print(f"[ARC DTWT]Failed to register ARC main menu button: {e}")
